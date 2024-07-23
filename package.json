@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/Blthrst/srbt/issues"
   },
+  "dependencies": {
+    "@mtcute/node": "0.16.0",
+    "@mtcute/convert": "0.16.0"
+  },
   "homepage": "https://github.com/Blthrst/srbt#readme"
 }
