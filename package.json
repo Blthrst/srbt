@@ -1,0 +1,27 @@
+{
+  "name": "@blthrst/classes",
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blthrst/srbt.git"
+  },
+  "keywords": [
+    "userbot",
+    "mtcute",
+    "telegram",
+    "typescript",
+    "javascript",
+    "node.js"
+  ],
+  "author": "Blthrst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blthrst/srbt/issues"
+  },
+  "homepage": "https://github.com/Blthrst/srbt#readme"
+}

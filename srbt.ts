@@ -11,7 +11,7 @@ import {
   SrbtOptions,
   UpdateTypes,
 } from "../types/types";
-import Logger from "./logger";
+import {Logger} from "./logger";
 import { ISrbtModule, ISrbtTrigger } from "../types/interfaces";
 
 export class Srbt {

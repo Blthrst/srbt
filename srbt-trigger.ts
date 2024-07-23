@@ -2,7 +2,7 @@ import { TelegramClient } from "@mtcute/node";
 
 import { ISrbtTrigger } from "../types/interfaces";
 import { SrbtTriggerOptions, UpdateTypes, UpdateType } from "../types/types";
-import Logger from "./logger";
+import {Logger} from "./logger";
 
 export class SrbtBaseTrigger implements ISrbtTrigger {
   private trigger: string;

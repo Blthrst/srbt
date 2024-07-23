@@ -1,6 +1,6 @@
 import { SrbtModuleOptions } from "../types/types";
 import { ISrbtTrigger, ISrbtModule } from "../types/interfaces";
-import Logger from "./logger";
+import {Logger} from "./logger";
 
 export class SrbtModule implements ISrbtModule {
   public name: string;

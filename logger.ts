@@ -2,7 +2,7 @@ import clc from "cli-color";
 
 type Colors = "yellow" | "red" | "green";
 
-class Logger {
+export class Logger {
   log(msg: string, color?: Colors) {
     const now = new Date();
     const str = `[${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}]  ${msg}`;
@@ -14,5 +14,3 @@ class Logger {
     return clc[color](msg);
   }
 }
-
-export default Logger;
